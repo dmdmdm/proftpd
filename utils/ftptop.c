@@ -222,7 +222,7 @@ ascii:
 static const char *show_time(time_t *i) {
   time_t now = time(NULL);
   unsigned long l;
-  static char sbuf[7];
+  static char sbuf[21];
 
   if (!i || !*i)
     return "-";
